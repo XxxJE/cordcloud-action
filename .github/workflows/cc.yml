@@ -5,7 +5,7 @@ name: CordCloud
 
 on:
   schedule:
-    - cron: "* * * * *"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
